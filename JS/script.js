@@ -3,7 +3,7 @@ let salary = document.getElementById('salary');
 let post = document.getElementById('post');
 let manager = document.getElementById('manager');
 let form = document.getElementById('form');
-
+let empTable = document.querySelector('#empTable tbody');
 let employees = JSON.parse(localStorage.getItem('employees')) || [];
 
 form.addEventListener('submit', (e) => {
