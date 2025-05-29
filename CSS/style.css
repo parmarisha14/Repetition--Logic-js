@@ -1,0 +1,18 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:#020811;
+}
+.navbar-brand span{
+    color:#fff;
+    font-weight: 500;
+}
+
+.nav-item .nav-link{
+    color:#E9DFE3;
+    font-weight: 400;
+    font-size:18px;
+}
